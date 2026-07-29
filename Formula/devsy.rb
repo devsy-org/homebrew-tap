@@ -1,28 +1,28 @@
 class Devsy < Formula
   desc "Standardized dev workspaces across Docker, Kubernetes, cloud, and SSH"
   homepage "https://www.devsy.sh"
-  version "1.11.2"
+  version "1.12.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/devsy-org/devsy/releases/download/v1.11.2/devsy-darwin-arm64"
-      sha256 "e6f9210b7dd3ee02bd71d868c415847d03198bdbd2137f1894b1effadbb792e9"
+      url "https://github.com/devsy-org/devsy/releases/download/v1.12.0/devsy-darwin-arm64"
+      sha256 "263f01568a20da9ee4f30c6e287a01cbe138275fdb68f6fa8c14227aa95cbf0c"
     end
     on_intel do
-      url "https://github.com/devsy-org/devsy/releases/download/v1.11.2/devsy-darwin-amd64"
-      sha256 "a577f29f43dd2660c7556ee1370dfc80e3b8f0ae973932df71ae6cbd95042ba3"
+      url "https://github.com/devsy-org/devsy/releases/download/v1.12.0/devsy-darwin-amd64"
+      sha256 "95e0c9eadf33203ec07b790cff0777930ff04fe7713b9d4338d5cae3b1b4b015"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/devsy-org/devsy/releases/download/v1.11.2/devsy-linux-arm64"
-      sha256 "8449675620052e78967ecdc1361a28e0340ee4b1f36c057921e8ad76d940036f"
+      url "https://github.com/devsy-org/devsy/releases/download/v1.12.0/devsy-linux-arm64"
+      sha256 "bfdf35349dbe6fe88f3f3d3c3e7657b441c07ad77880f3b382a47585085e9c7d"
     end
     on_intel do
-      url "https://github.com/devsy-org/devsy/releases/download/v1.11.2/devsy-linux-amd64"
-      sha256 "72e6168552424710549a2c64eed8bdbd196b0ac161e1bc03d7869aaacb5a4b80"
+      url "https://github.com/devsy-org/devsy/releases/download/v1.12.0/devsy-linux-amd64"
+      sha256 "40e179c960fb2f4539812400a9c34faa011ed6bdd1084c0486dfc6a90c73ec2e"
     end
   end
 
