@@ -1,9 +1,9 @@
 cask "devsy" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.24.0"
-  sha256 arm:   "7d034a90b13da763da868a533703208e4b156cb95c4ee130a49fcebbb7635d36",
-         intel: "9e63b1af28451b8826990ca812a0c422db52d124065f0dc5c1b9b2b2addb8097"
+  version "1.25.0"
+  sha256 arm:   "49bb6ddb700050b8586645200d0b77d133b3774bed9651c87d0f6247ecf539d2",
+         intel: "6f7ff73bf624d435bed055fdd90ddbb605ac33746d15851e62cf7ac538c3da01"
 
   url "https://github.com/devsy-org/devsy/releases/download/v#{version}/Devsy_mac_#{arch}.dmg"
   name "Devsy"
